@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  background-color: rgba(255, 228, 196, 0.562);
+}
+
+.canvas {
+  border: 1px solid gray;
+  box-shadow: 0px 1px 10px 1px gray;
+  background-color: white;
+  cursor: crosshair;
+}
+
+.canvas-grab {
+  cursor: grab;
+}
+
+.coordinates {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.point {
+  margin: 5px 0;
+}
+
+.reset {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
